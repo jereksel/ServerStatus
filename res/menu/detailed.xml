@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity" >
+    <item android:id="@+id/refresh"
+        android:title="@string/refresh"
+        android:icon="@drawable/sinchronize"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/about"
+        android:title="@string/about"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+</menu>

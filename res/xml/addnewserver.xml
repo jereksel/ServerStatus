@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <EditTextPreference
+        android:defaultValue="admin"
+        android:key="username"
+        android:title="@string/username" />
+
+    <EditTextPreference
+        android:defaultValue="0.0.0.0"
+        android:key="hostname"
+        android:title="@string/hostname" />
+
+    <EditTextPreference
+        android:defaultValue="80"
+        android:key="port"
+        android:title="@string/port"
+        android:inputType="number" />
+
+    <EditTextPreference
+        android:defaultValue="/"
+        android:key="path"
+        android:title="@string/path" />
+
+    <PreferenceCategory android:title="@string/save">
+        <Preference
+            android:title="@string/save"
+            android:key="button" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
